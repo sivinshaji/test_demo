@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Quicksand', sans-serif;
+}
+body
+{
+    background-color: #08090a;
+    color: #f4faff;
+    position: relative;
+    min-height: 100vh;
+    padding: 25px;
+    min-width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.page-title
+{
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-align: center;
+    display: block;
+}
+.page-title span
+{
+    color: #7cc6fe;
+    text-decoration: underline;
+}
+
+.page-section
+{
+    min-height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.counter-card
+{
+    min-height: 400px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #7667ae;
+    justify-content:space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.btn
+{
+    min-width: 120px;
+    min-height: 45px;
+    font-weight: 400;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 5px;
+} 
+.btn-primary
+{
+    background-color: #533aae;
+    color: #f4faff;
+}
+.btn-primary:hover
+{
+    background-color: #5d41c3;
+}
+.btn-primary:active
+{
+    border: solid 1px #775dd7;
+}
